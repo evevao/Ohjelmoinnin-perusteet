@@ -1,0 +1,9 @@
+#LAB01 tehtävä 05
+
+#Teksti komennot
+euro = float(input("Euroja: "))
+sentti = float(input("Senttejä: "))
+sum = euro + sentti/100
+
+#printti komennot
+print(sum, "€")
