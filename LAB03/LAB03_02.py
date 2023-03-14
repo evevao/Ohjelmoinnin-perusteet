@@ -1,9 +1,10 @@
-#LAB03 tehtävä 01
+#LAB03 tehtävä 02
 
 #Teksti komennot
 num1 = int(input("Anna kokonaisluku: "))
 num2 = int(input("Anna toinen kokonaisluku: "))
-text = ("Pienin:")
+num3 = int(input("Anna kolmas kokoniasluku: "))
+text = ("Suurin: ")
 
 #Printti komennot
-print(text, min(num1, num2))
+print(text, max(num1, num2, num3))
