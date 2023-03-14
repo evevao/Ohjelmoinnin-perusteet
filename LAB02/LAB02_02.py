@@ -3,7 +3,8 @@
 #Teksti komennot
 fname = input("Anna etunimesi: ")
 sname = input("Anna sukunimesi: ")
+fullname = fname + " " + sname
 
 
 #printti komennot
-print(fname.upper, sname.upper)
+print(fullname.upper())
