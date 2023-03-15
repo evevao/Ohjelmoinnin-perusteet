@@ -8,7 +8,6 @@ num3 = int(input("Anna 3.luku: "))
 num4 = int(input("Anna 4.luku: "))
 num5 = int(input("Anna 5.luku: "))
 sum = 0 
-       #+ num3 + num4 + num5)
 
 #printti komennot
 if num1 >= 1:
