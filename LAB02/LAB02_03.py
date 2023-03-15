@@ -5,5 +5,5 @@ nimi = input("Anna nimesi: ")
 Etunimi, *Sukunimi = nimi.split()
 
 #printti komennot?
-print("Etunimi: = {Etunimi}".format (Etunimi=Etunimi))
-print("Sukunimi: = {Sukunimi}".format (Sukunimi=" ".join (Sukunimi)))
+print("Etunimi: {Etunimi}".format (Etunimi=Etunimi))
+print("Sukunimi: {Sukunimi}".format (Sukunimi=" ".join (Sukunimi)))
