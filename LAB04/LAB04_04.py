@@ -1,9 +1,10 @@
 #LAB04 tehtävä 04
 
-num = 1**2
-num2 = 2**2
-num3 = 3**2
+#Tekstikomennot
+luku = int(input("Anna numero väliltä 1-10: "))
+rivi = int(1)
 
-print(num)
-print(num2)
-print(num3)
+#printti komennot
+for i in range(1, int(luku)):
+    print("luvun",rivi, "neliö on", i ** 2)
+    rivi = rivi + int(1)
