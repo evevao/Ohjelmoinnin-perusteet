@@ -9,3 +9,5 @@ tulo = "Tulos:"
 def subtract():
     return print(tulo, num1 - num2)
 print(subtract())
+
+#Tulostaa silti "None", vaikka "return". korjataan myöhemmin.

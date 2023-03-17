@@ -9,3 +9,5 @@ num3 = float(input("Anna luku kolme: "))
 def average():
     return print((num1+num2+num3)/3)
 print(average())
+
+#printtaa "None"... palataan astialle.
