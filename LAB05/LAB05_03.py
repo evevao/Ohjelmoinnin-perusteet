@@ -7,5 +7,5 @@ num2 = float(input("Anna luku kaksi: "))
 num3 = float(input("Anna luku kolme: "))
 
 def average():
-    return print((num1+num2+num3)/3)
+    return print("Keskiarvo:", str(round(((num1+num2+num3)/3), 2)))
 average()
