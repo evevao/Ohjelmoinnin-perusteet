@@ -11,7 +11,7 @@ while True:
     luku = int(input("Anna luku: "))
     letter += 1 
     if luku == 0:
-        print(annettu, letter)
+        print(annettu, letter - 1)
         break
     else:
         sum = sum + luku
