@@ -28,4 +28,4 @@ while i < len(my_list):
         tulos = tulos + my_list[i]
     i = i + 1
     
-print(tulos - [""])
+print(tulos)
