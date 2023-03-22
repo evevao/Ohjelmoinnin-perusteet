@@ -9,9 +9,7 @@ for i in range(5):
    tulos = random.randint(1, 20)
    print("Hypyn pisteet: ", tulos)
    sum += tulos
-   sum2 = sum - min(tulos) - max(tulos)
    
-   
-print("Summa: ", sum2)
+print("Summa: ", sum)
 
 #ei toimi
