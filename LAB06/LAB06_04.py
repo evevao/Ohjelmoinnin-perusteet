@@ -6,7 +6,7 @@ num_input = 5
 inputs = []
 sum = 0
 
-print("Anna alla 5 pisteytystä hypylle.")
+print("Anna hypylle alla pisteytys 1-20.")
 
 #funktio komento
 for i in range(num_input):
