@@ -2,7 +2,7 @@
 
 #Teksti komennot
 selvennys = input("Anna mitta selvennys tuuma tai cm: ")
-aste = int(input("Anna muunnettava mitta: "))
+aste = float(input("Anna muunnettava mitta: "))
 
 
 #funktio komennot
