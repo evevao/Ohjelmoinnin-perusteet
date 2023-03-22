@@ -1,5 +1,7 @@
 #LAB05 tehtävä 05
 
+print("Laske alla polttoaineen hinta.")
+
 #teksti komennot
 ajettu = float(input("Anna ajetut kilometrit: "))
 keskikulutus = float(input("Anna keskikulutus 100km kohti: "))
