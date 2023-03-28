@@ -4,7 +4,7 @@
 rivi = 0
 teksti = "Oppilaita: "
 teksti2 = "Lukujen summa: "
-my_list = []
+oppilaat = []
 tulos = ""
 
 
@@ -12,21 +12,21 @@ tulos = ""
 
    
 while True:
-    user_input = input("Anna oppilaan nimi: ")
-    if user_input == "":      
+    annetut = input("Anna oppilaan nimi: ")
+    if annetut == "":      
         break
     else: 
         rivi += 1
-        my_list = my_list + [user_input]
+        oppilaat = oppilaat + [annetut]
 
 print(teksti, rivi)
 
 i = 0
-while i < len(my_list):
-    if i == len(my_list) - 1:
-        tulos = tulos + my_list[i]
+while i < len(oppilaat):
+    if i == len(oppilaat) - 1:
+        tulos = tulos + oppilaat[i]
     else:
-        tulos = tulos + my_list[i] + ", "
+        tulos = tulos + oppilaat[i] + ", "
     i = i + 1
     
 print(tulos)
