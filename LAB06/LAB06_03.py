@@ -3,7 +3,6 @@
 #Teksti komennot
 rivi = 0
 teksti = "Oppilaita: "
-teksti2 = "Lukujen summa: "
 oppilaat = []
 tulos = ""
 
