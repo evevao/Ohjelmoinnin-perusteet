@@ -2,7 +2,9 @@
 
 
 with open("LAB09_01_nimet.txt", "r") as tiedosto:
-    sisalto = tiedosto.read()
+    sisalto = tiedosto.read().splitlines()
 
-print(sisalto)
+jarjestyksessa = sorted(sisalto)
+
+print(jarjestyksessa)
 tiedosto.close()
