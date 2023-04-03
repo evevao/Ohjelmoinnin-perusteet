@@ -1,6 +1,5 @@
 #LAB09 tehtävä 01
 
-
 tiedoston_nimi = "LAB09_01_nimet.txt"
 tiedosto = open(tiedoston_nimi, "w")
 nimi = "*"
