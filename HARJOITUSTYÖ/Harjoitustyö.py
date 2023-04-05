@@ -11,6 +11,7 @@ print("** = potenssi")
 
 dump = input("Paina Enter-painiketta jatkaaksesi.")
 
+
 def plussa(x, y):
     return x + y
 def miinus(x, y):
@@ -22,22 +23,23 @@ def jako(x, y):
 def potenssi(x,y):
     return x**y
 
-
-try: 
-    numero1 = float(input("Anna ensimmäinen luku: "))
-except ValueError:
-    print("Antamasi merkki ei ollut numero, anna numero.")
-except TypeError:
-    print("Antamasi merkki ei ollut numero, anna numero.")
+while True: 
+    try: 
+        numero1 = float(input("Anna ensimmäinen luku: "))
+        break
+    except ValueError:
+        print("Antamasi merkki ei ollut numero, anna numero.")
+        continue
 
 laskutoiminto = input("Anna laskutoimituksen merkki: ")
 
-try:
-    numero2 = float(input("Anna toinen luku: "))
-except ValueError:
-    print("Antamasi merkki ei ollut numero, anna numero.")
-except TypeError:
-    print("Antamasi merkki ei ollut numero, anna numero.")
+while True:
+    try:
+        numero2 = float(input("Anna toinen luku: "))
+        break
+    except ValueError:
+        print("Antamasi merkki ei ollut numero, anna numero.")
+        continue
 
 try: 
     if laskutoiminto == "+":
@@ -53,7 +55,7 @@ try:
     else:
         print("Laskutoimintoa ei voitu suorittaa.")
 except TypeError:
-    print("Laskutoimitusta ei voitu suorittaa.")
+    print("Antamasi merkki ei ollut toimiva merkki.")
 except ValueError:
     print("Antamasi merkki ei ollut toimiva merkki.")
 
