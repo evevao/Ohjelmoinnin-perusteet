@@ -1,4 +1,4 @@
-#Harjoitustyönä teen yksinkertaisen laskimen.
+#Harjoitustyönä teen yksinkertaisen laskin-ohjelman.
 
 dump = input("Paina Enter-painiketta aloittaaksesi.")
 
